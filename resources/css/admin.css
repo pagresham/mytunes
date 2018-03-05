@@ -1,0 +1,93 @@
+
+/* === Begin Stylings for Range input === */
+input[type=range] {
+    -webkit-appearance: none;
+    width: 80%;
+    background: transparent;
+    border-radius: 12px;
+
+    height: 25px;
+    background: #d3d3d3;
+    outline: none;
+
+    opacity: 0.7;
+    -webkit-transition: opacity .2s;
+    transition: opacity .2s;
+}
+
+input[type=range]:hover {
+    opacity: 1;
+}
+
+input[type=range]::-ms-track {
+    width: 100%;
+    cursor: pointer;
+    /* Make invisible in all browsers to prep for custom stylings */
+    background: transparent;
+    border-color: transparent;
+    color: transparent;
+
+}
+
+input[type=range]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background: #4CAF50;
+    cursor: pointer;
+    border: 1px solid #000000;
+    box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
+
+}
+
+/* Make same as above */
+/* Same as -webkit-slider-thumb */
+input[type=range]::-moz-range-thumb {
+
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background: #4CAF50;
+    cursor: pointer;
+    border: 1px solid #000000;
+    box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
+}
+
+/* Same stuff for IE */
+input[type=range]::-ms-thumb {
+
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background: #4CAF50;
+    cursor: pointer;
+    border: 1px solid #000000;
+    box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
+}
+
+.mytunes-key-input {
+    /*max-width: 3em;*/
+}
+
+#mytunes-range {
+    /*margin-left: 2em;*/
+    /*margin-right: 2em;*/
+}
+.mytunes-range-lable {
+    margin-bottom: .5em;
+}
+
+/* === End Stylings for Range input === */
+
+/*  Start mytunes-post-box  */
+
+.mytunes-post-box {
+    border: 1px solid seagreen;
+ }
+
+* {
+
+}
